@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Velocidade Média</title>
+</head>
+<body>
+    <center><h1>Calculadora de Velocidade Média</h1></center>
+    <label for="cidade1">Selecione a primeira cidade:</label>
+    <select id="cidade1">
+        <option value="SP-RJ">São Paulo - Rio de Janeiro (400 km)</option>
+        <option value="RJ-BH">Rio de Janeiro - Belo Horizonte (500 km)</option>
+        <option value="BH-BSB">Belo Horizonte - Brasília (700 km)</option>
+        <option value="BSB-SAL">Brasília - Salvador (1000 km)</option>
+    </select>
+    <br>
+    <label for="distancia">Distância (km):</label>
+    <input type="number" id="distancia">
+    <br>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
