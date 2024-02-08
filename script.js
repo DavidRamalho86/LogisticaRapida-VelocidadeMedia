@@ -30,8 +30,10 @@ function calcular() {
     const combustivelNecessarioCaminhao = (distancia * consumoCombistivelCaminhao) / 100;
 
     document.getElementById('resultado').innerHTML = `
-        Velocidade média: ${velocidadeMedia.toFixed(2)} km/h<br>
-        Combustível necessário para carro: ${combustivelNecessarioCarro.toFixed(2)} litros<br>
+        Velocidade média: ${velocidadeMedia.toFixed(2)} km/h
+        <br>
+        Combustível necessário para carro: ${combustivelNecessarioCarro.toFixed(2)} litros
+        <br>
         Combustível necessário para caminhão: ${combustivelNecessarioCaminhao.toFixed(2)} litros
     `;
 }
