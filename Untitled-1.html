@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Ativa</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <center>
+    <h1>1 2 3 Milhas </h1>
+    
+        <form> <!-- Início do formulário -->
+
+            <br>
+            <br>
+            <br>
+
+
+            <label for="viagem">Viagens: </label>
+            <select id="viagem" >
+                <option value="SP-RJ">São paulo - Rio de Janeiro (400 KM)</option>
+                <option value="RJ-BH">Rio de Janeiro - Belo Horizonte (500 KM)</option>
+                <option value="BH-BSD">Belo Horizonte - Brasilia (700 KM)</option>
+                <option value="BSD-SAL">Brasilia - Salvador (1000 KM)</option>
+            </select>
+            
+            <br>
+            <br>
+            <br>
+
+            <button type="button" onclick="rota()">Calcule sua viagem</button>
+
+            <br>
+            <br>
+        
+            <h2>Resultado:</h2>
+            <p id="carro"></p>
+            <p id="camionhão"></p>
+
+            </form>
+            </center>
+            
+            <script src="script.js"></script>
+ 
+</body>
+</html>
